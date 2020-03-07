@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2020_03_05_183058) do
     t.string "name"
     t.string "author"
     t.text "description"
-    t.boolean "availability", default: true
+    t.boolean "availability"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.float "price"

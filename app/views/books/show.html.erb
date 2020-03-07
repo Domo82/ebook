@@ -1,24 +1,20 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @book.name %>
-</p>
+<div class="row">
+  <div class ="col-md-6">
+  <%= image_tag "ror.png", class: 'img-responsive' %>
 
-<p>
-  <strong>Author:</strong>
-  <%= @book.author %>
-</p>
+  </div>
 
-<p>
-  <strong>Description:</strong>
-  <%= @book.description %>
-</p>
+  <div class="col-6-md">
 
-<p>
-  <strong>Availability:</strong>
-  <%= @book.availability %>
-</p>
+    <h3><%= @book.name %> by <%= @book.author %></h3>
+    <p><%= @book.description %></p>
+
+
+  </div>
+</div>
+
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>
