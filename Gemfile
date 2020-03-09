@@ -58,3 +58,6 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'simple_form'
 
 gem 'devise'
+
+# CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access.
+gem "cancan"
