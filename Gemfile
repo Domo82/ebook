@@ -61,3 +61,5 @@ gem 'devise'
 
 # CanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access.
 gem "cancan"
+
+gem "paperclip", "~> 6.0.0"
