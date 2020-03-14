@@ -66,3 +66,6 @@ gem "paperclip", "~> 6.0.0"
 
 #helps setup different environment variables
 gem 'dotenv-rails', groups: [:development]
+
+#AWS SDK Gem
+gem 'aws-sdk', '~> 3'
