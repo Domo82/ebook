@@ -69,3 +69,6 @@ gem 'dotenv-rails', groups: [:development]
 
 #AWS SDK Gem
 gem 'aws-sdk', '~> 3'
+
+# Gem for improving our unique URLs
+gem 'friendly_id', '~> 5.2.4'
